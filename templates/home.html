@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+
+{% block islamiyat %}
+
+{% for islamiya in islamiyat %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{islamiya.name}}</h5>
+          <a href="{{islamiya.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+{% endblock islamiyat %}
+
+{% block self-up %}
+
+{% for selfu in selfup %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{selfu.name}}</h5>
+          <a href="{{selfu.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+{% endblock self-up %}
+
+
+{% block sport %}
+
+{% for spor in sport %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{spor.name}}</h5>
+          <a href="{{spor.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+{% endblock sport %}
+
+{% block programming %}
+
+{% for prog in programming %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{prog.name}}</h5>
+          <a href="{{prog.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+{% endblock programming %}
+
+{% block montage %}
+
+{% for mont in montage %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{mont.name}}</h5>
+          <a href="{{mont.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+{% endblock montage %}
+
+{% block random %}
+
+{% for rand in random %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{rand.name}}</h5>
+          <a href="{{rand.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+
+{% endblock random %}
+
+{% block language %}
+
+{% for lang in language %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{lang.name}}</h5>
+          <a href="{{lang.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+
+{% endblock language %}
+
+{% block ai %}
+
+{% for a in ai %}
+
+<div class="row justify-content-center">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+      <div class="card text-center" style="width: 100%;">
+        <!-- <img src="imgs/icon.png" class="card-img-top" alt="..." /> -->
+        <div class="card-body">
+          <h5 class="card-title">{{a.name}}</h5>
+          <a href="{{a.youtube_url}}" class="btn btn-primary">مشاهدة</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endfor %}
+
+
+{% endblock ai %}
